@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-github-digest",
+  "version": "1.0.0",
+  "description": "Weekly GitHub activity digest that cross-references repos with live npm registry download stats. Demonstrates wiring two public REST APIs together: pagination, rate-limit handling, and data joining.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Adam Mann",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "digest": "tsx src/cli.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^4.1.11"
+  }
+}
