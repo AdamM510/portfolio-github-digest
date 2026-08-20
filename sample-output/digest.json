@@ -1,0 +1,512 @@
+{
+  "account": {
+    "login": "expressjs",
+    "type": "Organization",
+    "htmlUrl": "https://github.com/expressjs",
+    "publicRepos": 50,
+    "followers": 2594,
+    "description": "Express.js: the fast, unopinionated, minimalist web framework for node"
+  },
+  "windowDays": 30,
+  "generatedAt": "2026-08-20T02:26:31.895Z",
+  "totals": {
+    "totalRepos": 50,
+    "totalStars": 130599,
+    "totalForks": 33646,
+    "totalOpenIssues": 1233,
+    "reposWithNpmPackage": 42,
+    "totalWeeklyNpmDownloads": 497753936,
+    "newIssues": 18,
+    "newPRs": 82
+  },
+  "mostActiveRepos": [
+    {
+      "name": "perf-wg",
+      "fullName": "expressjs/perf-wg",
+      "description": "Performance Working Group",
+      "htmlUrl": "https://github.com/expressjs/perf-wg",
+      "stars": 16,
+      "forks": 8,
+      "openIssues": 24,
+      "language": "JavaScript",
+      "pushedAt": "2026-08-19T14:56:34Z",
+      "createdAt": "2025-04-17T14:44:27Z",
+      "isFork": false,
+      "isArchived": false,
+      "npm": {
+        "packageName": "perf-wg",
+        "isPublished": false
+      }
+    },
+    {
+      "name": "expressjs.com",
+      "fullName": "expressjs/expressjs.com",
+      "description": "The Express.js Website",
+      "htmlUrl": "https://github.com/expressjs/expressjs.com",
+      "stars": 5362,
+      "forks": 2246,
+      "openIssues": 43,
+      "language": "MDX",
+      "pushedAt": "2026-08-17T08:17:59Z",
+      "createdAt": "2012-06-06T03:08:03Z",
+      "isFork": false,
+      "isArchived": false,
+      "npm": {
+        "packageName": "expressjs.com",
+        "isPublished": true,
+        "latestVersion": "1.0.0",
+        "npmUrl": "https://www.npmjs.com/package/expressjs.com",
+        "registryUrl": "https://registry.npmjs.org/expressjs.com",
+        "weeklyDownloads": 0
+      }
+    },
+    {
+      "name": "body-parser",
+      "fullName": "expressjs/body-parser",
+      "description": "Node.js body parsing middleware",
+      "htmlUrl": "https://github.com/expressjs/body-parser",
+      "stars": 5500,
+      "forks": 762,
+      "openIssues": 47,
+      "language": "JavaScript",
+      "pushedAt": "2026-08-14T16:20:14Z",
+      "createdAt": "2014-01-06T08:25:03Z",
+      "isFork": false,
+      "isArchived": false,
+      "npm": {
+        "packageName": "body-parser",
+        "isPublished": true,
+        "latestVersion": "2.3.0",
+        "npmUrl": "https://www.npmjs.com/package/body-parser",
+        "registryUrl": "https://registry.npmjs.org/body-parser",
+        "weeklyDownloads": 114831433
+      }
+    },
+    {
+      "name": "vhost",
+      "fullName": "expressjs/vhost",
+      "description": "virtual domain hosting",
+      "htmlUrl": "https://github.com/expressjs/vhost",
+      "stars": 766,
+      "forks": 94,
+      "openIssues": 4,
+      "language": "JavaScript",
+      "pushedAt": "2026-08-09T09:45:27Z",
+      "createdAt": "2014-03-05T06:31:16Z",
+      "isFork": false,
+      "isArchived": false,
+      "npm": {
+        "packageName": "vhost",
+        "isPublished": true,
+        "latestVersion": "3.0.2",
+        "npmUrl": "https://www.npmjs.com/package/vhost",
+        "registryUrl": "https://registry.npmjs.org/vhost",
+        "weeklyDownloads": 230670
+      }
+    },
+    {
+      "name": "serve-index",
+      "fullName": "expressjs/serve-index",
+      "description": "Serve directory listings",
+      "htmlUrl": "https://github.com/expressjs/serve-index",
+      "stars": 447,
+      "forks": 156,
+      "openIssues": 37,
+      "language": "JavaScript",
+      "pushedAt": "2026-08-05T14:00:57Z",
+      "createdAt": "2014-03-05T23:26:46Z",
+      "isFork": false,
+      "isArchived": false,
+      "npm": {
+        "packageName": "serve-index",
+        "isPublished": true,
+        "latestVersion": "1.9.2",
+        "npmUrl": "https://www.npmjs.com/package/serve-index",
+        "registryUrl": "https://registry.npmjs.org/serve-index",
+        "weeklyDownloads": 14266984
+      }
+    },
+    {
+      "name": "multer",
+      "fullName": "expressjs/multer",
+      "description": "Node.js middleware for handling `multipart/form-data`.",
+      "htmlUrl": "https://github.com/expressjs/multer",
+      "stars": 12081,
+      "forks": 1133,
+      "openIssues": 291,
+      "language": "JavaScript",
+      "pushedAt": "2026-08-05T14:00:08Z",
+      "createdAt": "2014-01-30T18:16:04Z",
+      "isFork": false,
+      "isArchived": false,
+      "npm": {
+        "packageName": "multer",
+        "isPublished": true,
+        "latestVersion": "2.2.0",
+        "npmUrl": "https://www.npmjs.com/package/multer",
+        "registryUrl": "https://registry.npmjs.org/multer",
+        "weeklyDownloads": 16876641
+      }
+    },
+    {
+      "name": "cookie-session",
+      "fullName": "expressjs/cookie-session",
+      "description": "Simple cookie-based session middleware",
+      "htmlUrl": "https://github.com/expressjs/cookie-session",
+      "stars": 1149,
+      "forks": 210,
+      "openIssues": 16,
+      "language": "JavaScript",
+      "pushedAt": "2026-08-05T13:59:19Z",
+      "createdAt": "2014-02-23T10:52:57Z",
+      "isFork": false,
+      "isArchived": false,
+      "npm": {
+        "packageName": "cookie-session",
+        "isPublished": true,
+        "latestVersion": "2.1.1",
+        "npmUrl": "https://www.npmjs.com/package/cookie-session",
+        "registryUrl": "https://registry.npmjs.org/cookie-session",
+        "weeklyDownloads": 328135
+      }
+    },
+    {
+      "name": "session",
+      "fullName": "expressjs/session",
+      "description": "Simple session middleware for Express",
+      "htmlUrl": "https://github.com/expressjs/session",
+      "stars": 6358,
+      "forks": 1002,
+      "openIssues": 97,
+      "language": "JavaScript",
+      "pushedAt": "2026-08-05T08:41:25Z",
+      "createdAt": "2014-02-16T00:38:44Z",
+      "isFork": false,
+      "isArchived": false,
+      "npm": {
+        "packageName": "session",
+        "isPublished": true,
+        "latestVersion": "0.1.0",
+        "npmUrl": "https://www.npmjs.com/package/session",
+        "registryUrl": "https://registry.npmjs.org/session",
+        "weeklyDownloads": 2089
+      }
+    }
+  ],
+  "topDownloaded": [
+    {
+      "name": "body-parser",
+      "fullName": "expressjs/body-parser",
+      "description": "Node.js body parsing middleware",
+      "htmlUrl": "https://github.com/expressjs/body-parser",
+      "stars": 5500,
+      "forks": 762,
+      "openIssues": 47,
+      "language": "JavaScript",
+      "pushedAt": "2026-08-14T16:20:14Z",
+      "createdAt": "2014-01-06T08:25:03Z",
+      "isFork": false,
+      "isArchived": false,
+      "npm": {
+        "packageName": "body-parser",
+        "isPublished": true,
+        "latestVersion": "2.3.0",
+        "npmUrl": "https://www.npmjs.com/package/body-parser",
+        "registryUrl": "https://registry.npmjs.org/body-parser",
+        "weeklyDownloads": 114831433
+      }
+    },
+    {
+      "name": "serve-static",
+      "fullName": "expressjs/serve-static",
+      "description": "Serve static files",
+      "htmlUrl": "https://github.com/expressjs/serve-static",
+      "stars": 1422,
+      "forks": 241,
+      "openIssues": 26,
+      "language": "JavaScript",
+      "pushedAt": "2026-01-03T18:08:02Z",
+      "createdAt": "2014-03-06T03:07:17Z",
+      "isFork": false,
+      "isArchived": false,
+      "npm": {
+        "packageName": "serve-static",
+        "isPublished": true,
+        "latestVersion": "2.2.1",
+        "npmUrl": "https://www.npmjs.com/package/serve-static",
+        "registryUrl": "https://registry.npmjs.org/serve-static",
+        "weeklyDownloads": 113976861
+      }
+    },
+    {
+      "name": "express",
+      "fullName": "expressjs/express",
+      "description": "Fast, unopinionated, minimalist web framework for node.",
+      "htmlUrl": "https://github.com/expressjs/express",
+      "stars": 69382,
+      "forks": 24705,
+      "openIssues": 229,
+      "language": "JavaScript",
+      "pushedAt": "2026-08-01T09:58:10Z",
+      "createdAt": "2009-06-26T18:56:01Z",
+      "isFork": false,
+      "isArchived": false,
+      "npm": {
+        "packageName": "express",
+        "isPublished": true,
+        "latestVersion": "5.2.1",
+        "npmUrl": "https://www.npmjs.com/package/express",
+        "registryUrl": "https://registry.npmjs.org/express",
+        "weeklyDownloads": 109066653
+      }
+    },
+    {
+      "name": "cors",
+      "fullName": "expressjs/cors",
+      "description": "Node.js CORS middleware",
+      "htmlUrl": "https://github.com/expressjs/cors",
+      "stars": 6189,
+      "forks": 512,
+      "openIssues": 52,
+      "language": "JavaScript",
+      "pushedAt": "2026-06-02T20:00:40Z",
+      "createdAt": "2013-01-31T03:27:53Z",
+      "isFork": false,
+      "isArchived": false,
+      "npm": {
+        "packageName": "cors",
+        "isPublished": true,
+        "latestVersion": "2.8.6",
+        "npmUrl": "https://www.npmjs.com/package/cors",
+        "registryUrl": "https://registry.npmjs.org/cors",
+        "weeklyDownloads": 62959419
+      }
+    },
+    {
+      "name": "compression",
+      "fullName": "expressjs/compression",
+      "description": "Node.js compression middleware",
+      "htmlUrl": "https://github.com/expressjs/compression",
+      "stars": 2805,
+      "forks": 251,
+      "openIssues": 29,
+      "language": "JavaScript",
+      "pushedAt": "2026-08-05T08:38:37Z",
+      "createdAt": "2014-01-01T23:38:37Z",
+      "isFork": false,
+      "isArchived": false,
+      "npm": {
+        "packageName": "compression",
+        "isPublished": true,
+        "latestVersion": "1.8.1",
+        "npmUrl": "https://www.npmjs.com/package/compression",
+        "registryUrl": "https://registry.npmjs.org/compression",
+        "weeklyDownloads": 33878662
+      }
+    }
+  ],
+  "recentIssues": [
+    {
+      "kind": "issue",
+      "repo": "perf-wg",
+      "number": 132,
+      "title": "2026-09-02 Express Performance Working Group Meeting",
+      "htmlUrl": "https://github.com/expressjs/perf-wg/issues/132",
+      "author": "github-actions[bot]",
+      "createdAt": "2026-08-20T00:20:54Z",
+      "state": "open"
+    },
+    {
+      "kind": "issue",
+      "repo": "discussions",
+      "number": 518,
+      "title": "2026-08-26 Express Working Session",
+      "htmlUrl": "https://github.com/expressjs/discussions/issues/518",
+      "author": "github-actions[bot]",
+      "createdAt": "2026-08-20T00:16:51Z",
+      "state": "open"
+    },
+    {
+      "kind": "issue",
+      "repo": "perf-wg",
+      "number": 131,
+      "title": "Land performance measurement CI/CD in Express and related projects ",
+      "htmlUrl": "https://github.com/expressjs/perf-wg/issues/131",
+      "author": "O4FDev",
+      "createdAt": "2026-08-19T15:11:34Z",
+      "state": "open"
+    },
+    {
+      "kind": "issue",
+      "repo": "express",
+      "number": 7422,
+      "title": "Outdated FOSS used in express",
+      "htmlUrl": "https://github.com/expressjs/express/issues/7422",
+      "author": "krishraheja",
+      "createdAt": "2026-08-18T06:38:03Z",
+      "state": "closed"
+    },
+    {
+      "kind": "issue",
+      "repo": "multer",
+      "number": 1451,
+      "title": "Failing test on Windows: functionality.js hardcodes forward slash",
+      "htmlUrl": "https://github.com/expressjs/multer/issues/1451",
+      "author": "ashish3011",
+      "createdAt": "2026-08-15T05:22:32Z",
+      "state": "open"
+    },
+    {
+      "kind": "issue",
+      "repo": "discussions",
+      "number": 516,
+      "title": "2026-08-17 Express TC Meeting",
+      "htmlUrl": "https://github.com/expressjs/discussions/issues/516",
+      "author": "github-actions[bot]",
+      "createdAt": "2026-08-11T00:22:04Z",
+      "state": "closed"
+    },
+    {
+      "kind": "issue",
+      "repo": "discussions",
+      "number": 515,
+      "title": "Server Fetch mode",
+      "htmlUrl": "https://github.com/expressjs/discussions/issues/515",
+      "author": "bjohansebas",
+      "createdAt": "2026-08-08T15:48:05Z",
+      "state": "open"
+    },
+    {
+      "kind": "issue",
+      "repo": "expressjs.com",
+      "number": 2486,
+      "title": "Previous/next navigation can be too wide on small screens",
+      "htmlUrl": "https://github.com/expressjs/expressjs.com/issues/2486",
+      "author": "krzysdz",
+      "createdAt": "2026-08-08T14:44:26Z",
+      "state": "open"
+    },
+    {
+      "kind": "issue",
+      "repo": "express",
+      "number": 7412,
+      "title": "Add migration guide from Express 4 to Express 5",
+      "htmlUrl": "https://github.com/expressjs/express/issues/7412",
+      "author": "rexblade58",
+      "createdAt": "2026-08-08T14:41:46Z",
+      "state": "closed"
+    },
+    {
+      "kind": "issue",
+      "repo": "expressjs.com",
+      "number": 2484,
+      "title": "A page in the documentation seems messy in small screens",
+      "htmlUrl": "https://github.com/expressjs/expressjs.com/issues/2484",
+      "author": "usama-makhzoum",
+      "createdAt": "2026-08-08T10:30:23Z",
+      "state": "open"
+    }
+  ],
+  "recentPRs": [
+    {
+      "kind": "pr",
+      "repo": "express",
+      "number": 7424,
+      "title": "Fix: Throw TypeError instead of sending invalid Location header on missing redirect URL",
+      "htmlUrl": "https://github.com/expressjs/express/pull/7424",
+      "author": "vjymisal0",
+      "createdAt": "2026-08-19T12:47:30Z",
+      "state": "closed"
+    },
+    {
+      "kind": "pr",
+      "repo": "morgan",
+      "number": 371,
+      "title": "Fix: respect NO_COLOR env var in dev format (#302)",
+      "htmlUrl": "https://github.com/expressjs/morgan/pull/371",
+      "author": "vjymisal0",
+      "createdAt": "2026-08-19T12:22:17Z",
+      "state": "closed"
+    },
+    {
+      "kind": "pr",
+      "repo": "express",
+      "number": 7423,
+      "title": "test: add test cases for null, string, and NaN status codes in res.sendStatus",
+      "htmlUrl": "https://github.com/expressjs/express/pull/7423",
+      "author": "aoright",
+      "createdAt": "2026-08-19T04:34:42Z",
+      "state": "open"
+    },
+    {
+      "kind": "pr",
+      "repo": "morgan",
+      "number": 370,
+      "title": "fix(token): throw on reserved token names instead of silently corrupting morgan",
+      "htmlUrl": "https://github.com/expressjs/morgan/pull/370",
+      "author": "Samiullah-2004",
+      "createdAt": "2026-08-17T18:39:48Z",
+      "state": "open"
+    },
+    {
+      "kind": "pr",
+      "repo": "express",
+      "number": 7421,
+      "title": "Revert 7 sentinel/deps/connect redis/9nmkgbmgfxmh",
+      "htmlUrl": "https://github.com/expressjs/express/pull/7421",
+      "author": "DEADPOO10",
+      "createdAt": "2026-08-17T09:52:19Z",
+      "state": "closed"
+    },
+    {
+      "kind": "pr",
+      "repo": "multer",
+      "number": 1452,
+      "title": "fix(test): use path.sep for cross-platform path assertions",
+      "htmlUrl": "https://github.com/expressjs/multer/pull/1452",
+      "author": "kilisamemarisaaa",
+      "createdAt": "2026-08-16T15:23:54Z",
+      "state": "open"
+    },
+    {
+      "kind": "pr",
+      "repo": "body-parser",
+      "number": 756,
+      "title": "docs: fix strict option description",
+      "htmlUrl": "https://github.com/expressjs/body-parser/pull/756",
+      "author": "Rawal27",
+      "createdAt": "2026-08-16T10:10:23Z",
+      "state": "open"
+    },
+    {
+      "kind": "pr",
+      "repo": "express",
+      "number": 7420,
+      "title": "fix: throw clean lookup error for view names ending with a dot",
+      "htmlUrl": "https://github.com/expressjs/express/pull/7420",
+      "author": "haoku123",
+      "createdAt": "2026-08-14T15:18:49Z",
+      "state": "closed"
+    },
+    {
+      "kind": "pr",
+      "repo": "express",
+      "number": 7419,
+      "title": "fix: send raw ArrayBuffer and SharedArrayBuffer as binary",
+      "htmlUrl": "https://github.com/expressjs/express/pull/7419",
+      "author": "haoku123",
+      "createdAt": "2026-08-14T15:18:46Z",
+      "state": "closed"
+    },
+    {
+      "kind": "pr",
+      "repo": "body-parser",
+      "number": 755,
+      "title": "docs: fix entity verify error description",
+      "htmlUrl": "https://github.com/expressjs/body-parser/pull/755",
+      "author": "Rawal27",
+      "createdAt": "2026-08-14T08:22:25Z",
+      "state": "closed"
+    }
+  ]
+}
