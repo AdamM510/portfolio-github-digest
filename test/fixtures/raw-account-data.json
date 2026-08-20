@@ -1,0 +1,140 @@
+{
+  "_comment": "Synthetic fixture (not live data) shaped like RawAccountData, used to deterministically test digestBuilder's window filtering, sorting and aggregation. generatedAt is fixed so age-based filtering is reproducible.",
+  "generatedAt": "2026-08-20T12:00:00.000Z",
+  "account": {
+    "login": "demo-org",
+    "type": "Organization",
+    "htmlUrl": "https://github.com/demo-org",
+    "publicRepos": 3,
+    "followers": 100,
+    "description": "A demo org for testing"
+  },
+  "repos": [
+    {
+      "name": "alpha",
+      "fullName": "demo-org/alpha",
+      "description": "The alpha package",
+      "htmlUrl": "https://github.com/demo-org/alpha",
+      "stars": 500,
+      "forks": 40,
+      "openIssues": 12,
+      "language": "TypeScript",
+      "pushedAt": "2026-08-19T09:00:00.000Z",
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "isFork": false,
+      "isArchived": false
+    },
+    {
+      "name": "beta",
+      "fullName": "demo-org/beta",
+      "description": "The beta package",
+      "htmlUrl": "https://github.com/demo-org/beta",
+      "stars": 1200,
+      "forks": 90,
+      "openIssues": 3,
+      "language": "JavaScript",
+      "pushedAt": "2026-08-01T09:00:00.000Z",
+      "createdAt": "2019-05-01T00:00:00.000Z",
+      "isFork": false,
+      "isArchived": false
+    },
+    {
+      "name": "gamma-archived",
+      "fullName": "demo-org/gamma-archived",
+      "description": "An old, archived repo that should be excluded from most-active",
+      "htmlUrl": "https://github.com/demo-org/gamma-archived",
+      "stars": 5000,
+      "forks": 300,
+      "openIssues": 0,
+      "language": "Python",
+      "pushedAt": "2026-08-18T09:00:00.000Z",
+      "createdAt": "2015-01-01T00:00:00.000Z",
+      "isFork": false,
+      "isArchived": true
+    },
+    {
+      "name": "delta-no-npm",
+      "fullName": "demo-org/delta-no-npm",
+      "description": "A repo that isn't published to npm",
+      "htmlUrl": "https://github.com/demo-org/delta-no-npm",
+      "stars": 10,
+      "forks": 1,
+      "openIssues": 1,
+      "language": "Go",
+      "pushedAt": "2026-08-15T09:00:00.000Z",
+      "createdAt": "2022-01-01T00:00:00.000Z",
+      "isFork": false,
+      "isArchived": false
+    }
+  ],
+  "recentIssues": [
+    {
+      "kind": "issue",
+      "repo": "alpha",
+      "number": 42,
+      "title": "In-window issue",
+      "htmlUrl": "https://github.com/demo-org/alpha/issues/42",
+      "author": "alice",
+      "createdAt": "2026-08-18T00:00:00.000Z",
+      "state": "open"
+    },
+    {
+      "kind": "issue",
+      "repo": "beta",
+      "number": 7,
+      "title": "Out-of-window issue (too old)",
+      "htmlUrl": "https://github.com/demo-org/beta/issues/7",
+      "author": "bob",
+      "createdAt": "2026-07-01T00:00:00.000Z",
+      "state": "open"
+    }
+  ],
+  "recentPRs": [
+    {
+      "kind": "pr",
+      "repo": "alpha",
+      "number": 100,
+      "title": "In-window PR",
+      "htmlUrl": "https://github.com/demo-org/alpha/pull/100",
+      "author": "carol",
+      "createdAt": "2026-08-19T00:00:00.000Z",
+      "state": "open"
+    },
+    {
+      "kind": "pr",
+      "repo": "beta",
+      "number": 101,
+      "title": "Another in-window PR, older than the first",
+      "htmlUrl": "https://github.com/demo-org/beta/pull/101",
+      "author": "dave",
+      "createdAt": "2026-08-17T00:00:00.000Z",
+      "state": "closed"
+    }
+  ],
+  "npmPackages": {
+    "alpha": {
+      "packageName": "alpha",
+      "isPublished": true,
+      "latestVersion": "3.2.1",
+      "weeklyDownloads": 50000,
+      "npmUrl": "https://www.npmjs.com/package/alpha",
+      "registryUrl": "https://registry.npmjs.org/alpha"
+    },
+    "beta": {
+      "packageName": "beta",
+      "isPublished": true,
+      "latestVersion": "1.0.0",
+      "weeklyDownloads": 2000000,
+      "npmUrl": "https://www.npmjs.com/package/beta",
+      "registryUrl": "https://registry.npmjs.org/beta"
+    },
+    "gamma-archived": {
+      "packageName": "gamma-archived",
+      "isPublished": false
+    },
+    "delta-no-npm": {
+      "packageName": "delta-no-npm",
+      "isPublished": false
+    }
+  }
+}
