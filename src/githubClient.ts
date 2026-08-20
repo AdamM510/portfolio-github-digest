@@ -1,7 +1,7 @@
 import type { AccountInfo, AccountType, IssueOrPr, IssueOrPrKind, RepoSummary } from "./types.js";
 
 const GITHUB_API = "https://api.github.com";
-const USER_AGENT = "portfolio-github-digest (https://github.com/) - keyless demo client";
+const USER_AGENT = "portfolio-github-digest (https://github.com/AdamM510/portfolio-github-digest) - keyless demo client";
 
 export class GithubApiError extends Error {}
 export class GithubNotFoundError extends GithubApiError {}

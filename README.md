@@ -49,8 +49,8 @@ Run against the [`expressjs`](https://github.com/expressjs) GitHub organization
 |---|---|
 | Total repos | 50 |
 | Total stars | 130,599 |
-| Total forks | 33,646 |
-| Total open issues | 1,233 |
+| Total forks | 33,650 |
+| Total open issues | 1,232 |
 | New issues (30d) | 18 |
 | New PRs (30d) | 82 |
 | Repos published to npm | 42 of 50 |
@@ -193,5 +193,5 @@ the core integration skill cleanly, not to be a SaaS product.
 
 ---
 
-Built by [Adam Mann](https://github.com/) as a portfolio piece. MIT licensed —
+Built by [Adam Mann](https://github.com/AdamM510) as a portfolio piece. MIT licensed —
 use it, fork it, adapt it.

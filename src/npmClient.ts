@@ -3,7 +3,7 @@ import { mapWithConcurrency } from "./utils.js";
 
 const REGISTRY_API = "https://registry.npmjs.org";
 const DOWNLOADS_API = "https://api.npmjs.org/downloads/point/last-week";
-const USER_AGENT = "portfolio-github-digest (https://github.com/) - keyless demo client";
+const USER_AGENT = "portfolio-github-digest (https://github.com/AdamM510/portfolio-github-digest) - keyless demo client";
 
 interface RawRegistryPackage {
   name: string;

@@ -4,22 +4,40 @@
     "type": "Organization",
     "htmlUrl": "https://github.com/expressjs",
     "publicRepos": 50,
-    "followers": 2594,
+    "followers": 2593,
     "description": "Express.js: the fast, unopinionated, minimalist web framework for node"
   },
   "windowDays": 30,
-  "generatedAt": "2026-08-20T02:26:31.895Z",
+  "generatedAt": "2026-08-20T10:51:50.119Z",
   "totals": {
     "totalRepos": 50,
     "totalStars": 130599,
-    "totalForks": 33646,
-    "totalOpenIssues": 1233,
+    "totalForks": 33650,
+    "totalOpenIssues": 1232,
     "reposWithNpmPackage": 42,
     "totalWeeklyNpmDownloads": 497753936,
     "newIssues": 18,
     "newPRs": 82
   },
   "mostActiveRepos": [
+    {
+      "name": "discussions",
+      "fullName": "expressjs/discussions",
+      "description": "Public discussions for the Express.js organization",
+      "htmlUrl": "https://github.com/expressjs/discussions",
+      "stars": 72,
+      "forks": 26,
+      "openIssues": 78,
+      "language": null,
+      "pushedAt": "2026-08-20T06:10:20Z",
+      "createdAt": "2016-02-25T01:59:47Z",
+      "isFork": false,
+      "isArchived": false,
+      "npm": {
+        "packageName": "discussions",
+        "isPublished": false
+      }
+    },
     {
       "name": "perf-wg",
       "fullName": "expressjs/perf-wg",
@@ -132,7 +150,7 @@
       "description": "Node.js middleware for handling `multipart/form-data`.",
       "htmlUrl": "https://github.com/expressjs/multer",
       "stars": 12081,
-      "forks": 1133,
+      "forks": 1132,
       "openIssues": 291,
       "language": "JavaScript",
       "pushedAt": "2026-08-05T14:00:08Z",
@@ -168,28 +186,6 @@
         "npmUrl": "https://www.npmjs.com/package/cookie-session",
         "registryUrl": "https://registry.npmjs.org/cookie-session",
         "weeklyDownloads": 328135
-      }
-    },
-    {
-      "name": "session",
-      "fullName": "expressjs/session",
-      "description": "Simple session middleware for Express",
-      "htmlUrl": "https://github.com/expressjs/session",
-      "stars": 6358,
-      "forks": 1002,
-      "openIssues": 97,
-      "language": "JavaScript",
-      "pushedAt": "2026-08-05T08:41:25Z",
-      "createdAt": "2014-02-16T00:38:44Z",
-      "isFork": false,
-      "isArchived": false,
-      "npm": {
-        "packageName": "session",
-        "isPublished": true,
-        "latestVersion": "0.1.0",
-        "npmUrl": "https://www.npmjs.com/package/session",
-        "registryUrl": "https://registry.npmjs.org/session",
-        "weeklyDownloads": 2089
       }
     }
   ],
@@ -244,7 +240,7 @@
       "description": "Fast, unopinionated, minimalist web framework for node.",
       "htmlUrl": "https://github.com/expressjs/express",
       "stars": 69382,
-      "forks": 24705,
+      "forks": 24710,
       "openIssues": 229,
       "language": "JavaScript",
       "pushedAt": "2026-08-01T09:58:10Z",
@@ -265,7 +261,7 @@
       "fullName": "expressjs/cors",
       "description": "Node.js CORS middleware",
       "htmlUrl": "https://github.com/expressjs/cors",
-      "stars": 6189,
+      "stars": 6190,
       "forks": 512,
       "openIssues": 52,
       "language": "JavaScript",
@@ -287,7 +283,7 @@
       "fullName": "expressjs/compression",
       "description": "Node.js compression middleware",
       "htmlUrl": "https://github.com/expressjs/compression",
-      "stars": 2805,
+      "stars": 2804,
       "forks": 251,
       "openIssues": 29,
       "language": "JavaScript",
